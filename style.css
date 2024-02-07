@@ -46,7 +46,8 @@ header {
 
 .logo:hover,
 .social-links a:hover {
-    color: #58a6ff;
+    /* color: #58a6ff; */
+    color: #93c2b6;
     transition: 0.2s;
 }
 
@@ -103,12 +104,14 @@ header {
 
 .post:hover {
     /* border-color: #fdfdfd; */
-    border-color: #58a6ff;
+    /* border-color: #58a6ff; */
+    border-color: #93c2b6;
     transition: 0.2s;
 }
 
 .post:hover h3 {
-    color: #58a6ff;
+    /* color: #58a6ff; */
+    color: #93c2b6;
     transition: 0.2s; /* Smooth transition for the color change */
 }
 
