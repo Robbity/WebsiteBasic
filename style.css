@@ -151,3 +151,11 @@ header {
         grid-template-columns: repeat(1, 1fr); /* 1 post per row for smaller screens */
     }
 }
+
+@media (max-width: 400px) {
+    .header-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto; /* Adjust width to work with added margins */
+    }
+}
