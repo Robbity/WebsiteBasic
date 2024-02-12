@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Robbie Laughlen</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel=icon href=/img/bear.jpg sizes="16x16">
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container header header-container">
-            <a href="/" class="logo">ROBBIE LAUGHLEN</a>
-            <div class="social-links">
-                <a href="https://github.com/Robbity" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/robertlaughlen/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:robbie@laughlen.com" title="Email"><i class="fas fa-envelope" ></i></a>
-                <a href="/data/Robbie_Laughlen_Resume.pdf" title="Resume" target="_blank"><i class="fas fa-file-alt"></i></a>
-            </div>
+      <div class="container header header-container">
+        <a href="/" class="logo">ROBBIE LAUGHLEN</a>
+        <div class="social-links">
+          <a href="https://github.com/Robbity" title="GitHub" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/robertlaughlen/"
+            title="LinkedIn"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:robbie@laughlen.com" title="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="/data/Robbie_Laughlen_Resume.pdf"
+            title="Resume"
+            target="_blank"
+            ><i class="fas fa-file-alt"></i
+          ></a>
         </div>
+      </div>
     </header>
     <main class="container content">
-
-        <!-- <div class="experience">
+      <!-- <div class="experience">
             <h2>Experience</h2>
             <section id="experience">
  
@@ -42,75 +57,97 @@
             </section>
         </div> -->
 
-        
+      <div class="projects">
+        <!-- <h2>Projects</h2> -->
+        <section class="posts">
+          <article class="post">
+            <a
+              href="https://devpost.com/software/yapyap-anonymous-social-journaling-app"
+              target="_blank"
+            >
+              <img src="/img/yapyap.jpg" alt="yapyap" />
+              <h3>yapyap - nwHacks 2024 Winner</h3>
+              <time datetime="2024-01-21">Jan 21, 2024</time>
+              <p class="post-description">
+                Anonymous Social Journaling App created using React Native
+              </p>
+            </a>
+          </article>
 
+          <article class="post">
+            <a
+              href="https://github.com/Robbity/MultibandCompressor"
+              target="_blank"
+            >
+              <img src="/img/multibandcomp.PNG" alt="Multiband Compressor" />
+              <h3>Multiband Compressor</h3>
+              <time datetime="2024-01-21">2024</time>
+              <p class="post-description">
+                Multiband Compressor VST created using Juce + C++
+              </p>
+            </a>
+          </article>
 
-        <div class="projects">
-            <!-- <h2>Projects</h2> -->
-            <section class="posts">
-   
-                <article class="post">
-                    <a href="https://devpost.com/software/yapyap-anonymous-social-journaling-app" target="_blank">
-                        <img src="/img/yapyap.jpg" alt="yapyap">
-                        <h3>yapyap - nwHacks 2024 Winner</h3>
-                        <time dateTime="2024-01-21">Jan 21, 2024</time>
-                        <p class="post-description">Anonymous Social Journaling App created using React Native</p>
-                    </a>
-                </article>
+          <article class="post">
+            <a href="https://github.com/Robbity/MusicRating" target="_blank">
+              <img
+                src="/img/ratingsplashscreen.png"
+                alt="Music Rating Application"
+              />
+              <h3>Music Rating Application</h3>
+              <time datetime="2024-01-21">2023</time>
+              <p class="post-description">
+                Created for CPSC210 using Java + Swing
+              </p>
+            </a>
+          </article>
 
-                <article class="post">
-                    <a href="https://github.com/Robbity/MusicRating" target="_blank">
-                        <img src="/img/ratingsplashscreen.png" alt="yapyap">
-                        <h3>Music Rating Application</h3>
-                        <time dateTime="2024-01-21">2023</time>
-                        <p class="post-description">Created for CPSC210 using Java + Swing</p>
-                    </a>
-                </article>
+          <article class="post">
+            <a href="data/PHYS_319_Final_Paper.pdf" target="_blank">
+              <img src="/img/phys319.PNG" alt="minesense" />
+              <h3>Configurable Metronome with the MSP430</h3>
+              <time datetime="2024-01-21">2023</time>
+              <p class="post-description">
+                Created for PHYS319 using C + MSP430
+              </p>
+            </a>
+          </article>
 
-                <article class="post">
-                    <a href="data/PHYS_319_Final_Paper.pdf" target="_blank">
-                        <img src="/img/phys319.PNG" alt="minesense">
-                        <h3>Configurable Metronome with the MSP430</h3>
-                        <time dateTime="2024-01-21">2023</time>
-                        <p class="post-description">Created for PHYS319 using C + MSP430</p>
-                    </a>
-                </article>
+          <article class="post">
+            <a href="https://github.com/Robbity/SensorProgram" target="_blank">
+              <img src="/img/minesense.jpg" alt="Sensor Program" />
+              <h3>X-ray Detector Analytics Program</h3>
+              <time datetime="2024-01-21">2022</time>
+              <p class="post-description">
+                Created for MineSense using Python + Dash + Qt
+              </p>
+            </a>
+          </article>
 
-                <article class="post">
-                    <a href="https://github.com/Robbity/SensorProgram" target="_blank">
-                        <img src="/img/minesense.jpg" alt="minesense">
-                        <h3>X-ray Detector Analytics Program</h3>
-                        <time dateTime="2024-01-21">2022</time>
-                        <p class="post-description">Created for MineSense using Python + Dash + Qt</p>
-                    </a>
-                </article>
-   
-                <article class="post">
-                    <a href="https://github.com/SaadRehmanCS/DSCI_project" target="_blank">
-                        <img src="/img/sad bear.jpg" alt="yapyap">
-                        <h3>Heart Failure Risk Analysis</h3>
-                        <time dateTime="2024-01-21">2021</time>
-                        <p class="post-description">Created for DSCI100 using R</p>
-                    </a>
-                </article>
+          <article class="post">
+            <a
+              href="https://github.com/SaadRehmanCS/DSCI_project"
+              target="_blank"
+            >
+              <img src="/img/heartfailure.PNG" alt="heart failure analysis" />
+              <h3>Heart Failure Risk Analysis</h3>
+              <time datetime="2024-01-21">2021</time>
+              <p class="post-description">Created for DSCI100 using R</p>
+            </a>
+          </article>
 
-                <article class="post">
-                    <a href="/data/EPQ_Paper.pdf" target="_blank">
-                        <img src="/img/epq.PNG" alt="yapyap">
-                        <h3>FFT Analysis of Electric Guitar</h3>
-                        <time dateTime="2024-01-21">2019</time>
-                        <p class="post-description">Governor's Award Winning EPQ Project</p>
-                    </a>
-                </article>
-
-
-      
-                
-                
-            </section>
-        </div>
-
-
+          <article class="post">
+            <a href="/data/EPQ_Paper.pdf" target="_blank">
+              <img src="/img/epq.PNG" alt="guitar fourier analysis" />
+              <h3>FFT Analysis of Electric Guitar</h3>
+              <time datetime="2024-01-21">2019</time>
+              <p class="post-description">
+                Governor's Award Winning EPQ Project
+              </p>
+            </a>
+          </article>
+        </section>
+      </div>
     </main>
-</body>
+  </body>
 </html>
